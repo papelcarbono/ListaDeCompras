@@ -1,0 +1,66 @@
+body h1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b2929;
+    padding: 20px;
+    color: #fff;
+}
+
+body{ 
+    background-color: #303030;
+}
+form {
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-right: 10px;
+    border:2px solid #0d6328;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #19c750;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0d6328;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul li.completed {
+    text-decoration: line-through;
+    background-color: #30ca30;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    form {
+        margin-bottom: 10px; 
+    }
+    input[type="text"] {
+        width: calc(100% - 20px); 
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+    button {
+        width: 100%; 
+    }
+    ul li {
+        padding: 8px; 
+    }
+}
